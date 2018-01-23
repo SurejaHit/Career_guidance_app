@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="com.example.surejahit.career_guidance_app.Language_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Career Dendogram"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gujarat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Language"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#0000FF"/>
+    <Spinner
+        android:id="@+id/language"
+        android:layout_margin="20dp"
+        android:entries="@array/language"
+        android:prompt="@string/language_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next >"
+        android:id="@+id/next"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom|right"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"/>
+
+</LinearLayout>

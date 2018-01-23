@@ -3,6 +3,15 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="language_prompt">Choose a Language</string>
+    <string-array name="language">
+            <item>English</item>
+            <item>Hindi</item>
+            <item>Marathi</item>
+            <item>Tamil</item>
+            <item>Gujarati</item>
+            <item>Telugu</item>
+            <item>Urdu</item>
+        </string-array>
     <string name="action_settings">Settings</string>
 </resources>
