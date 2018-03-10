@@ -10,31 +10,30 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 
-public class Guidance_Fragment extends AppCompatActivity{
+public class Guidance_Fragment extends Fragment{
     public Guidance_Fragment() {
         // Required empty public constructor
     }
-    private Button btn10=findViewById(R.id.btn10);
-    private Button btn12=findViewById(R.id.btn12);
+
+    Button btn1,btn2;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Onclick10();
-        onclick12();
     }
 
-   /*@Override
+   @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_guidance, container, false);
+       View v = inflater.inflate(R.layout.fragment_guidance,container);
+        btn1= (Button) v.findViewById(R.id.btn10);
+        btn2= (Button) v.findViewById(R.id.btn12);
+       return v;
+    }
 
-    }*/
-    public void Onclick10()
-    {
-
-
-        btn10.setOnClickListener(new View.OnClickListener() {
+    public void Onclick10() {
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter10");
@@ -42,9 +41,10 @@ public class Guidance_Fragment extends AppCompatActivity{
             }
         });
     }
+
     public void onclick12()
     {
-        btn12.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter12th");

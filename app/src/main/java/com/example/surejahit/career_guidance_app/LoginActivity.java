@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -30,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginActivity extends AppCompatActivity implements
         View.OnClickListener {
-
+    Intent iMa;
     private static final String TAG = "LoginActivity";
 
     private static final String KEY_VERIFY_IN_PROGRESS = "key_verify_in_progress";
@@ -111,11 +110,11 @@ public class LoginActivity extends AppCompatActivity implements
                 // 2 - Auto-retrieval. On some devices Google Play services can automatically
                 //     detect the incoming verification SMS and perform verification without
                 //     user action.
+
                 Log.d(TAG, "onVerificationCompleted:" + credential);
                 // [START_EXCLUDE silent]
                 mVerificationInProgress = false;
                 // [END_EXCLUDE]
-
                 // [START_EXCLUDE silent]
                 // Update the UI and attempt sign in with the phone credential
                 updateUI(STATE_VERIFY_SUCCESS, credential);
@@ -245,12 +244,10 @@ public class LoginActivity extends AppCompatActivity implements
                             Log.d(TAG, "signInWithCredential:success");
 
                             FirebaseUser user = task.getResult().getUser();
-
-                            Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
-                            startActivity(iMain);
+                            // [START_EXCLUDE]
+                            //it goes to main activity
                             updateUI(STATE_SIGNIN_SUCCESS, user);
-
-                            // [END_EXCLUDE]
+                           // [END_EXCLUDE]
                         } else {
                             // Sign in failed, display a message and update the UI
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
@@ -313,6 +310,7 @@ public class LoginActivity extends AppCompatActivity implements
                 // Verification has failed, show all options
                 enableViews(mStartButton, mVerifyButton, mResendButton, mPhoneNumberField,
                         mVerificationField);
+
                 mDetailText.setText(R.string.status_verification_failed);
                 break;
             case STATE_VERIFY_SUCCESS:
@@ -320,7 +318,6 @@ public class LoginActivity extends AppCompatActivity implements
                 disableViews(mStartButton, mVerifyButton, mResendButton, mPhoneNumberField,
                         mVerificationField);
                 mDetailText.setText(R.string.status_verification_succeeded);
-
                 // Set the verification text based on the credential
                 if (cred != null) {
                     if (cred.getSmsCode() != null) {

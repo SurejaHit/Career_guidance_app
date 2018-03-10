@@ -15,30 +15,24 @@
         android:orientation="vertical">
 
 
-
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Phone Number"
-             />
+            android:text="Phone Number" />
 
         <TextView
             android:id="@+id/status"
-            android:text="signout"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
+            android:text="signout" />
 
         <TextView
             android:id="@+id/detail"
-<<<<<<< HEAD
-=======
-            android:visibility="invisible"
->>>>>>> 7559733f1c13bcaae72ca5d318596905566cc872
-            tools:text="Firebase User ID: 123456789abc"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
+            tools:text="@string/Firebase" />
 
     </LinearLayout>
 
@@ -94,7 +88,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
-                    android:text="phone auth" />
+                    android:text="Start" />
 
                 <Button
 
