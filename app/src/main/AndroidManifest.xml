@@ -21,25 +21,24 @@
             </intent-filter>
         </activity>
         <activity android:name=".Language_Activity" />
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".CareerAfter10"></activity>
-        <activity android:name=".LoginActivity">
-
-        </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".CareerAfter10">
-        <intent-filter>
-            <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10" />
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
-      <!--  <activity android:name=".CareerAfter12th">
+        <!--
+        <activity android:name=".CareerAfter12th">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>-->
+            </intent-filter>
         </activity>
+        -->
+        <activity android:name=".CareerAfter12th"></activity>
     </application>
 
 </manifest>

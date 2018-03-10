@@ -52,11 +52,9 @@ public class CustomAdapter extends BaseAdapter{
 
         ImageView img= (ImageView) view.findViewById(R.id.spacecraftImg);
         TextView nameTxt= (TextView) view.findViewById(R.id.nameTxt);
-        TextView propTxt= (TextView) view.findViewById(R.id.propellantTxt);
 
         //BIND
         nameTxt.setText(s.getName());
-        propTxt.setText(s.getPropellant());
         img.setImageResource(s.getImage());
 
         view.setOnClickListener(new View.OnClickListener() {

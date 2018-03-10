@@ -38,64 +38,55 @@ public class Jobs_Fragment extends Fragment{
         ArrayList<Spacecraft> spacecrafts=new ArrayList<>();
 
         Spacecraft s=new Spacecraft();
-        s.setName("Pioneer");
-        s.setPropellant("Chemical Energy");
+        s.setName("Civil Eng");
         s.setImage(R.drawable.civil);
         spacecrafts.add(s);
 
         s=new Spacecraft();
-        s.setName("Spitzer");
-        s.setPropellant("Warp Drive");
-        s.setImage(R.drawable.civil);
+        s.setName("Mech Eng");
+        s.setImage(R.drawable.mechanical);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Enterprise");
-        s.setPropellant("Anti Matter");
+        s.setName("MBBS");
         s.setImage(R.drawable.mbbs);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Hubble");
-        s.setPropellant("Laser Beam");
-        s.setImage(R.drawable.pharmacy);
+        s.setName("Dental");
+        s.setImage(R.drawable.dentist);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Voyager");
-        s.setPropellant("Solar Energy");
+        s.setName("Plastic Eng");
         s.setImage(R.drawable.plastic);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Kepler");
-        s.setPropellant("Solar Energy");
+        s.setName("AutoMobile");
         s.setImage(R.drawable.automobile);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Rosetter");
-        s.setPropellant("Nuclear Energy");
+        s.setName("IT Eng");
         s.setImage(R.drawable.it);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("WMAP");
-        s.setPropellant("Nuclear Energy");
+        s.setName("Texttiles");
         s.setImage(R.drawable.texttiles);
         spacecrafts.add(s);
 
 
         s=new Spacecraft();
-        s.setName("Columbia");
-        s.setPropellant("Chemical Energy");
-        s.setImage(R.drawable.dentist);
+        s.setName("EC Eng");
+        s.setImage(R.drawable.ec);
         spacecrafts.add(s);
 
         return spacecrafts;
