@@ -7,7 +7,7 @@
 tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn10"
         android:textColor="#ffffff"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_width="300dp"
@@ -17,7 +17,7 @@ tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
         android:text="After 10th" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn12"
         android:textColor="#ffffff"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_width="300dp"
