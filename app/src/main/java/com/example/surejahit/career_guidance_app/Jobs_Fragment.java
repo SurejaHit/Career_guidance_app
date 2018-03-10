@@ -42,6 +42,13 @@ public class Jobs_Fragment extends Fragment{
         s.setImage(R.drawable.civil);
         spacecrafts.add(s);
 
+
+        s=new Spacecraft();
+        s.setName("MBA");
+        s.setImage(R.drawable.mba);
+        spacecrafts.add(s);
+
+
         s=new Spacecraft();
         s.setName("Mech Eng");
         s.setImage(R.drawable.mechanical);
@@ -67,6 +74,12 @@ public class Jobs_Fragment extends Fragment{
 
 
         s=new Spacecraft();
+        s.setName("C.A.");
+        s.setImage(R.drawable.ca);
+        spacecrafts.add(s);
+
+        
+        s=new Spacecraft();
         s.setName("AutoMobile");
         s.setImage(R.drawable.automobile);
         spacecrafts.add(s);
@@ -86,8 +99,21 @@ public class Jobs_Fragment extends Fragment{
 
         s=new Spacecraft();
         s.setName("EC Eng");
-        s.setImage(R.drawable.ec);
+        s.setImage(R.drawable.computer);
         spacecrafts.add(s);
+
+
+        s=new Spacecraft();
+        s.setName("Elect Eng");
+        s.setImage(R.drawable.electrical);
+        spacecrafts.add(s);
+
+
+        s=new Spacecraft();
+        s.setName("Architect");
+        s.setImage(R.drawable.architect);
+        spacecrafts.add(s);
+
 
         return spacecrafts;
     }
