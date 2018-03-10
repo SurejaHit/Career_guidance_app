@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "677481874724",
+    "firebase_url": "https://career-guidence.firebaseio.com",
+    "project_id": "career-guidence",
+    "storage_bucket": "career-guidence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677481874724:android:9563fe0e051d3d07",
+        "android_client_info": {
+          "package_name": "com.example.surejahit.career_guidance_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677481874724-5ft9hnouj90321dijgmaho4s80g2q6o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0RWkMmnWYY3izV3phYzCHcUhHdEgxyUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
