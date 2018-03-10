@@ -32,6 +32,7 @@
 
         <TextView
             android:id="@+id/detail"
+            android:visibility="invisible"
             tools:text="Firebase User ID: 123456789abc"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"/>
@@ -64,17 +65,17 @@
                     android:id="@+id/field_phone_number"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:hint="phonr number"
                     android:layout_weight="1.0"
-                    android:inputType="phone"/>
+                    android:hint="phonr number"
+                    android:inputType="phone" />
 
                 <EditText
                     android:id="@+id/field_verification_code"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:hint="verification code"
                     android:layout_weight="1.0"
-                    android:inputType="number"/>
+                    android:hint="verification code"
+                    android:inputType="number" />
 
             </LinearLayout>
 
@@ -90,7 +91,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
-                    android:text="phone auth"/>
+                    android:text="phone auth" />
 
                 <Button
 
@@ -99,7 +100,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
-                    android:text="verify"/>
+                    android:text="verify" />
 
                 <Button
 
@@ -108,7 +109,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
-                    android:text="resend"/>
+                    android:text="resend" />
             </LinearLayout>
 
         </LinearLayout>
@@ -129,8 +130,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
-                android:text="sign out"
-               />
+                android:text="sign out" />
 
         </LinearLayout>
 
