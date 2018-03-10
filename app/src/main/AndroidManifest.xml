@@ -21,9 +21,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".Language_Activity" />
-        <activity android:name=".Login_Activity" />
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".CareerAfter10" />
-        <activity android:name=".CareerAfter12th" />
+        <activity android:name=".CareerAfter12th">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
