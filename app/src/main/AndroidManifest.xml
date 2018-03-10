@@ -21,10 +21,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Language_Activity" />
+<<<<<<< HEAD
 
         <activity android:name=".LoginActivity"></activity>x
+=======
+        <activity android:name=".LoginActivity"></activity>
+>>>>>>> 63c01c6c2af25b5752429451e6d2ec25cfe00c3e
         <activity android:name=".CareerAfter10"></activity>
-
     </application>
 
 </manifest>
