@@ -13,4 +13,3 @@ tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
     android:layout_centerInParent="true"/>
 
 </RelativeLayout>
-
