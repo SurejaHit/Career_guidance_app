@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 
 //import android.support.design.widget.Snackbar;
 
-public class PhoneauthActivity extends AppCompatActivity implements
+public class Login_Activity extends AppCompatActivity implements
         View.OnClickListener {
 
     private static final String TAG = "PhoneAuthActivity";
@@ -66,7 +66,7 @@ public class PhoneauthActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Phoneauth);
+        setContentView(R.layout.activity_login);
 
         // Restore instance state
         if (savedInstanceState != null) {
