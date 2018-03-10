@@ -66,7 +66,7 @@ public class PhoneauthActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Phoneauth);
+        setContentView(R.layout.activity_login);
 
         // Restore instance state
         if (savedInstanceState != null) {
