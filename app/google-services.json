@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "677481874724",
-    "firebase_url": "https://career-guidence.firebaseio.com",
-    "project_id": "career-guidence",
-    "storage_bucket": "career-guidence.appspot.com"
+    "project_number": "359007757000",
+    "firebase_url": "https://careerguideapp-2b80b.firebaseio.com",
+    "project_id": "careerguideapp-2b80b",
+    "storage_bucket": "careerguideapp-2b80b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:677481874724:android:9563fe0e051d3d07",
+        "mobilesdk_app_id": "1:359007757000:android:9563fe0e051d3d07",
         "android_client_info": {
           "package_name": "com.example.surejahit.career_guidance_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "677481874724-5ft9hnouj90321dijgmaho4s80g2q6o8.apps.googleusercontent.com",
+          "client_id": "359007757000-8qqiubr8259sf10a032dklcsa0mf6q4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.surejahit.career_guidance_app",
+            "certificate_hash": "8d63961171d1ae28d0804844c2c11b950f9fe850"
+          }
+        },
+        {
+          "client_id": "359007757000-0cs29orjas1lajda6gnhqu6upj395nu6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD0RWkMmnWYY3izV3phYzCHcUhHdEgxyUM"
+          "current_key": "AIzaSyAOzDB5PZH0eGaCcglZXbN7n5Z9w8T4ClE"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359007757000-0cs29orjas1lajda6gnhqu6upj395nu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
