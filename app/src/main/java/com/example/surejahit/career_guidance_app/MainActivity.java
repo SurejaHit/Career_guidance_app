@@ -118,6 +118,8 @@ public class MainActivity extends AppCompatActivity
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new Guidance_Fragment(), "Guidance");
         adapter.addFragment(new Jobs_Fragment(), "Jobs");
+        adapter.addFragment(new FutureFragment(), "Future");
+
         viewPager.setAdapter(adapter);
     }
 

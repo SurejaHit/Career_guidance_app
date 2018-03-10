@@ -17,7 +17,6 @@ public class SplashActivity extends Activity {
             public void run() {
                 Intent i = new Intent(SplashActivity.this, Language_Activity.class);
                 startActivity(i);
-                finish();
             }
         }, SPLASH_TIME_OUT);
     }
