@@ -184,6 +184,8 @@ public class LoginActivity extends AppCompatActivity implements
             startPhoneNumberVerification(mPhoneNumberField.getText().toString());
         }
         // [END_EXCLUDE]
+        Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
+        startActivity(iMain);
     }
     // [END on_start_check_user]
 
@@ -245,7 +247,12 @@ public class LoginActivity extends AppCompatActivity implements
 
                             FirebaseUser user = task.getResult().getUser();
                             // [START_EXCLUDE]
+<<<<<<< HEAD
                             //it goes to main activity
+=======
+                            Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
+                            startActivity(iMain);
+>>>>>>> 1ed27f2687b04fc2c0fbe68bdf61e783326ea8f6
                             updateUI(STATE_SIGNIN_SUCCESS, user);
                            // [END_EXCLUDE]
                         } else {
