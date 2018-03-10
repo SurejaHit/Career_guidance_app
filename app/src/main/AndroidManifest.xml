@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".Language_Activity" />
 
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>x
         <activity android:name=".CareerAfter10"></activity>
 
     </application>
