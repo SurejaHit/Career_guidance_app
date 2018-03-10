@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Language_Activity" />
-        <activity android:name=".Login_Activity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".CareerAfter10"></activity>
     </application>
 
 </manifest>

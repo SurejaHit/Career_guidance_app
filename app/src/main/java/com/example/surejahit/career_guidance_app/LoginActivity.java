@@ -1,5 +1,6 @@
 package com.example.surejahit.career_guidance_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -26,10 +28,10 @@ import java.util.concurrent.TimeUnit;
 
 //import android.support.design.widget.Snackbar;
 
-public class Login_Activity extends AppCompatActivity implements
+public class LoginActivity extends AppCompatActivity implements
         View.OnClickListener {
 
-    private static final String TAG = "PhoneAuthActivity";
+    private static final String TAG = "LoginActivity";
 
     private static final String KEY_VERIFY_IN_PROGRESS = "key_verify_in_progress";
 
@@ -67,7 +69,6 @@ public class Login_Activity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         // Restore instance state
         if (savedInstanceState != null) {
             onRestoreInstanceState(savedInstanceState);
@@ -139,7 +140,7 @@ public class Login_Activity extends AppCompatActivity implements
                 } else if (e instanceof FirebaseTooManyRequestsException) {
                     // The SMS quota for the project has been exceeded
                     // [START_EXCLUDE]
-                    //Toast.makeText(findViewById(android.R.id.content), "Quota exceeded.",Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(findViewById(android.R.id.content), "Quota exceeded.", Toast.LENGTH_SHORT).show();
 
                     // [END_EXCLUDE]
                 }
@@ -245,7 +246,10 @@ public class Login_Activity extends AppCompatActivity implements
 
                             FirebaseUser user = task.getResult().getUser();
                             // [START_EXCLUDE]
+                            Intent i = new Intent(LoginActivity.this,MainActivity.class);
+                            startActivity(i);
                             updateUI(STATE_SIGNIN_SUCCESS, user);
+
                             // [END_EXCLUDE]
                         } else {
                             // Sign in failed, display a message and update the UI
