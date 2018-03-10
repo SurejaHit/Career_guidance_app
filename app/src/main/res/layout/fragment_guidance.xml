@@ -1,15 +1,48 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
 tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Guidance Fragment"
-    android:textSize="40dp"
-    android:textStyle="bold"
-    android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="300dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_selector"
+        android:layout_height="wrap_content"
+        android:text="After 10th" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/button2"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="300dp"
+        android:background="@drawable/button_selector"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="After 12th" />
+
+    <Button
+        android:id="@+id/button3"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="After Graduation" />
+
+    <Button
+        android:id="@+id/button4"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="After Post Graduation" />
+</LinearLayout>
