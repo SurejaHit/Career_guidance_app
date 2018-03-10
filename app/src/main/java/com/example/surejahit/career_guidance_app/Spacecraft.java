@@ -6,7 +6,7 @@ package com.example.surejahit.career_guidance_app;
 
 public class Spacecraft {
     int image;
-    String name,propellant;
+    String name;
 
     public int getImage() {
         return image;
@@ -22,13 +22,5 @@ public class Spacecraft {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getPropellant() {
-        return propellant;
-    }
-
-    public void setPropellant(String propellant) {
-        this.propellant = propellant;
     }
 }

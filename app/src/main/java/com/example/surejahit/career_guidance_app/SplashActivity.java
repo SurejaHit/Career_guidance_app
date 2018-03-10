@@ -18,10 +18,14 @@ public class SplashActivity extends Activity {
 
                 Intent i = new Intent(SplashActivity.this, Language_Activity.class);
                 startActivity(i);
+<<<<<<< HEAD
 
                 finish();
 
             }
+=======
+         }
+>>>>>>> 023b44aa683c987153fe6ff137c41bf20be10aeb
         }, SPLASH_TIME_OUT);
     }
 }

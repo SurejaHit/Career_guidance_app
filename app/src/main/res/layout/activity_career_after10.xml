@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ff4081"
+    android:background="#ffffff"
     tools:context="com.example.surejahit.career_guidance_app.CareerAfter10">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="After 10th"
+        android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:textSize="40dp"
         android:textColor="#6200ea"/>
     <Button
         android:id="@+id/txt1"
         android:layout_marginTop="50dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="11-12th  Science"
         android:textColor="#ffff"
@@ -28,7 +29,7 @@
     <Button
         android:id="@+id/txt2"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:text="11-12th Commerce"
@@ -39,7 +40,7 @@
     <Button
         android:id="@+id/txt3"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:textColor="#FFFFFF"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selector"
@@ -50,16 +51,13 @@
     <Button
         android:id="@+id/btn1"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selector"
-        android:text="Diploma"
+        android:text="Diploma in any Field"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"/>
-
-
-
 
 </LinearLayout>
 

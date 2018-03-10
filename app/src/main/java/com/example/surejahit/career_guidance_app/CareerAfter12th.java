@@ -1,9 +1,9 @@
 package com.example.surejahit.career_guidance_app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class CareerAfter12th extends AppCompatActivity {
+public class CareerAfter12th extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
