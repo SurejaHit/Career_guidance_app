@@ -78,7 +78,7 @@ public class Jobs_Fragment extends Fragment{
         s.setImage(R.drawable.ca);
         spacecrafts.add(s);
 
-        
+
         s=new Spacecraft();
         s.setName("AutoMobile");
         s.setImage(R.drawable.automobile);
