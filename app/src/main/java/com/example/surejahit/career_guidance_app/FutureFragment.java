@@ -91,6 +91,15 @@ public class FutureFragment extends Fragment {
         index++;
         obj = new DataObject(getString(R.string.top10) , getString(R.string.des10));
         results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top11) , getString(R.string.des11));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top12) , getString(R.string.des12));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top13) , getString(R.string.des13));
+        results.add(index, obj);
 
         return results;
     }

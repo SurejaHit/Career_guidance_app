@@ -248,12 +248,7 @@ public class LoginActivity extends AppCompatActivity implements
 
                             FirebaseUser user = task.getResult().getUser();
                             // [START_EXCLUDE]
-<<<<<<< HEAD
 
-
-                            //it goes to main activity
-=======
->>>>>>> b480e9dcabd113cf7edc0670e6551a68c66b4574
                             Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
                             startActivity(iMain);
                             updateUI(STATE_SIGNIN_SUCCESS, user);

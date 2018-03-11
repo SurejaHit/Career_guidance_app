@@ -23,6 +23,97 @@
         <li>\n Requirements: M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li>
     </ol>
     </string>
+    <string name="top2"><b>Robotics :</b></string>
+    <string name="des2">
+<ol><li>
+Reason : It is used in most of the industries and power plants.\n</li><li>\n
+Trend : All Time\n</li><li>\n
+Expected salary :  Around 4-5 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Mechanical Eng.),M.Tech.(Electrical Eng.)\n</li></ol></string>
+
+    <string name="top3"><b>Internet Of things :</b></string>
+    <string name="des3">
+<ol><li>
+Reason : It is used in precision agriculture , building management , transportation etc.\n</li><li>\n
+Trend : This days\n</li><li>\n
+Expected salary : Around 3-5 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li></ol></string>
+
+    <string name="top4"><b>Augmented Reality/Virtual Reality :</b></string>
+    <string name="des4">
+<ol><li>
+Reason : Virtual Reality expresses all the objects virtually.\n</li><li>\n
+Trend : In upcoming 3-5 years \n</li><li>\n
+Expected salary : Around 4-6 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li></ol></string>
+
+    <string name="top5"><b>Cyber security :</b></string>
+    <string name="des5">
+<ol><li>
+Reason : Most of the data is stored on servers so it is important to secure data.\n</li><li>\n
+Trend : This days\n</li><li>\n
+Expected salary : Around 5-8 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li></ol></string>
+
+    <string name="top6"><b>Nano Technology:</b></string>
+    <string name="des6">
+<ol><li>
+Reason : To deal with nucleus and other small particles of nanoscale. \n</li><li>\n
+Trend : In upcoming 6-8 years\n</li><li>\n
+Expected salary : Around 3-5 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Mechanical Eng.) , M.Sc.(Physics)\n</li></ol></string>
+
+    <string name="top7"><b>Bio-Mechanics :</b></string>
+    <string name="des7">
+<ol><li>
+Reason: It deals with the mechanics of the human or animal body and concerned with muscles and the skeleton.\n</li><li>\n
+Trend:All time\n</li><li>\n
+Expected salary: Around 3-5 lakhs/year\n</li><li>\n
+Requirements:M.Tech.(Mechanical Eng.) , M.Sc.(Physics)\n</li></ol></string>
+
+    <string name="top8"><b>Recreational cyborgs :</b></string>
+    <string name="des8">
+<ol><li>
+Reason : To provide support to the handikape persons by providing artificial parts of body.\n</li><li>\n
+Trend : All time\n</li><li>\n
+Expected salary : Around 5-8 lakhs/year\n</li><li>\n
+Requirements:Orthopedic , M.Tech.(Computer Eng.)\n</li></ol></string>
+
+    <string name="top9"><b>Medical 3D printing :</b></string>
+    <string name="des9">
+<ol><li>
+Reason : 3D printers will be used to make artificial parts.\n</li><li>\n
+Trend : All time\n</li><li>\n
+Expected salary : Around 5-8 lakhs/year\n</li><li>\n
+Requirements:Orthopedic , M.Tech.(Computer Eng.)\n</li></ol></string>
+
+    <string name="top10"><b>MBBS :</b></string>
+    <string name="des10"><ol><li>
+Reason: To guide the person for better health.
+Trend: All time
+Expected salary: around 4-8 lakhs/year
+Requirement: M.B.B.S.\n</li></ol></string>
+
+    <string name="top11"><b>Management :</b></string>
+    <string name="des11"><ol><li>
+Reason: It is important in any field such as technical and non-technical.\n</li><li>\n
+Trend : All time\n</li><li>\n
+Expected salary: Around 5-6 lakhs/year\n</li><li>\n
+Requirement: M.B.A. , Diploma in Management\n</li></ol></string>
+
+    <string name="top12"><b>Food Technology :</b></string>
+    <string name="des12"><ol><li>
+Reason: It is related to the food Production.\n</li><li>\n
+Treand: All time\n</li><li>\n
+Expected salary: Around 3-5 lakhs/year\n</li><li>\n
+Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
+
+    <string name="top13"><b>Power Industry :</b></string>
+    <string name="des13"><ol><li>
+Reason: It is related to the Power Plants and Nucleur Thermal Plants.\n</li><li>\n
+Treand: All time\n</li><li>\n
+Expected salary: Around 3-5 lakhs/year\n</li><li>\n
+Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
     <string name="action_settings">Settings</string>
     <string name="status_code_sent">Code Sent</string>
     <string name="status_verification_failed">Verification failed</string>
