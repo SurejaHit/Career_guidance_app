@@ -61,11 +61,37 @@ public class FutureFragment extends Fragment {
 
     public ArrayList<DataObject> getDataSet(){
         ArrayList results = new ArrayList<DataObject>();
-        for (int index = 0; index < 10; index++) {
-            DataObject obj = new DataObject("Some Primary Text " + index,
-                    "Secondary " + index);
-            results.add(index, obj);
-        }
+        int index = 0;
+        DataObject obj = new DataObject(getString(R.string.top1) , getString(R.string.des1));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top2), getString(R.string.des2));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top3) , getString(R.string.des3));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top4) , getString(R.string.des4));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top5) , getString(R.string.des5));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top6) , getString(R.string.des6));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top7) , getString(R.string.des7));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top8) , getString(R.string.des8));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top9) , getString(R.string.des9));
+        results.add(index, obj);
+        index++;
+        obj = new DataObject(getString(R.string.top10) , getString(R.string.des10));
+        results.add(index, obj);
+
         return results;
     }
 
