@@ -1,4 +1,5 @@
 package com.example.surejahit.career_guidance_app;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -178,14 +179,14 @@ public class LoginActivity extends AppCompatActivity implements
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
-        Intent im  = new Intent(LoginActivity.this,MainActivity.class);
-        startActivity(im);
+
         // [START_EXCLUDE]
         if (mVerificationInProgress && validatePhoneNumber()) {
             startPhoneNumberVerification(mPhoneNumberField.getText().toString());
         }
         // [END_EXCLUDE]
-
+        Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
+        startActivity(iMain);
     }
     // [END on_start_check_user]
 
@@ -247,9 +248,12 @@ public class LoginActivity extends AppCompatActivity implements
 
                             FirebaseUser user = task.getResult().getUser();
                             // [START_EXCLUDE]
+<<<<<<< HEAD
 
 
                             //it goes to main activity
+=======
+>>>>>>> b480e9dcabd113cf7edc0670e6551a68c66b4574
                             Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
                             startActivity(iMain);
                             updateUI(STATE_SIGNIN_SUCCESS, user);

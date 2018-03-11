@@ -13,6 +13,16 @@
         <item>Telugu</item>
         <item>Urdu</item>
     </string-array>
+
+    <string name="top1"><b>Machine Learning : </b></string>>
+    <string name="des1">
+    <ol>
+        <li> Reason : Machine learning is one of the most popular future trend.To Reducing human error,Banking sectors to manipulate large amount of data accurately,Autonomous Vehicles are increase day to day\n</li>
+        <li>\n Trend : Upcoming 5 years\n</li>
+        <li>\n Expected salary : Around 4-8 lakhs/year\n</li>
+        <li>\n Requirements: M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li>
+    </ol>
+    </string>
     <string name="action_settings">Settings</string>
     <string name="status_code_sent">Code Sent</string>
     <string name="status_verification_failed">Verification failed</string>
