@@ -1,13 +1,13 @@
 package com.example.surejahit.career_guidance_app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class CareerAfter10 extends AppCompatActivity {
+public class CareerAfter10th extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_career_after10);
+        setContentView(R.layout.activity_career_after10th);
     }
 }

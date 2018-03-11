@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/fragment1"
     android:layout_gravity="center"
 tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
 
