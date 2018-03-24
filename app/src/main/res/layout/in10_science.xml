@@ -45,15 +45,52 @@
             android:layout_height="200dp"
             android:layout_below="@+id/sc2"
             android:src="@drawable/img2" />
-   <TextView
+       <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sc2"
-       android:id="@+id/sc3"
+        android:id="@+id/sc3"
         android:layout_below="@+id/im1"
         android:textColor="#2196F3"
         />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sc4"
+            android:text="@string/sc3"
+            android:textSize="24dp"
+            android:textColor="#1186AA"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/sc3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sc5"
+            android:text="@string/sc4"
+            android:textSize="16dp"
+            android:textColor="#1186AA"
+            android:layout_below="@+id/sc4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sc6"
+            android:textSize="24dp"
+            android:textColor="#126699"
+            android:layout_marginTop="10dp"
+            android:text="@string/sc5"
+            android:layout_below="@+id/sc5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sc7"
+            android:textColor="#126699"
+            android:textSize="16dp"
+            android:text="@string/sc6"
+            android:layout_below="@+id/sc6"/>
 
     </RelativeLayout>
 

@@ -39,7 +39,10 @@ tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
         android:text="After Graduation" />
 
     <Button
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
         android:id="@+id/btnPg"
         android:textColor="#ffffff"
         android:background="@drawable/button_selector"
