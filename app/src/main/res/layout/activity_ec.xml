@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_ec.xml
     tools:context="com.example.surejahit.career_guidance_app.jobpackage.ECActivity">
 
 </android.support.constraint.ConstraintLayout>
+=======
+    tools:context="com.example.surejahit.career_guidance_app.CareerAfter12th">
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="After 12th"
+        android:textColor="#475860"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+</LinearLayout>
+>>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384:app/src/main/res/layout/activity_career_after12th.xml
