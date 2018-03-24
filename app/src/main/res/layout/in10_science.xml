@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.surejahit.career_guidance_app.in10_science"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why to Choose Science??"
+        android:textSize="32dp"
+        android:id="@+id/sc1"
+        android:textColor="#2196F3"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        />
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sc1"
+       android:id="@+id/sc2"
+       android:layout_below="@+id/webVideoView1"
+        android:textColor="#2196F3"
+       />
+
+   <WebView
+        android:id="@+id/webVideoView1"
+        android:layout_below="@+id/sc1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="none">
+   </WebView>
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/sc2"
+            android:src="@drawable/img2" />
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sc2"
+       android:id="@+id/sc3"
+        android:layout_below="@+id/im1"
+        android:textColor="#2196F3"
+        />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -9,15 +9,17 @@
     tools:context="com.example.surejahit.career_guidance_app.CareerAfter10th">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:text="After 10th"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:textSize="40dp"
-        android:textColor="#6200ea"/>
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"/>
     <Button
-        android:id="@+id/txt1"
+        android:id="@+id/btnsc"
         android:layout_marginTop="50dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -27,7 +29,7 @@
         android:background="@drawable/button_selector"
         android:layout_gravity="center_horizontal"/>
     <Button
-        android:id="@+id/txt2"
+        android:id="@+id/btncom"
         android:layout_marginTop="20dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -38,7 +40,7 @@
         android:layout_gravity="center_horizontal"
         />
     <Button
-        android:id="@+id/txt3"
+        android:id="@+id/btnart"
         android:layout_marginTop="20dp"
         android:layout_width="250dp"
         android:textColor="#FFFFFF"
@@ -49,7 +51,7 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btndp"
         android:layout_marginTop="20dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -58,6 +60,7 @@
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"/>
+
 
 </LinearLayout>
 

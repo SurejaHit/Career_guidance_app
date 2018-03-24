@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".Language_Activity" />
         <activity android:name=".LoginActivity" />
-        <!--
+
         <activity android:name=".CareerAfter12th">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
@@ -30,9 +30,43 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        -->
-        <activity android:name=".CareerAfter12th" />
-        <activity android:name=".CareerAfter10th"></activity>
+        <activity android:name=".CareerAfter10th">
+        <intent-filter>
+            <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".in10_science">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.in10_science" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".in_eng">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.in_eng" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CareerAfter_g">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter_g" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CareerAfter_pg">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter_pg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
