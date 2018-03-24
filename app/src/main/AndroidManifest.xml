@@ -11,17 +11,28 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Language_Activity" />
-        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".Language_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
         <!--
         <activity android:name=".CareerAfter12th">
             <intent-filter>
@@ -31,8 +42,20 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".CareerAfter12th" />
-        <activity android:name=".CareerAfter10th"></activity>
+
+        <activity android:name=".jobpackage.ArchiActivity"/>
+        <activity android:name=".jobpackage.AutoActivity" />
+        <activity android:name=".jobpackage.CAActivity" />
+        <activity android:name=".jobpackage.CivilActivity" />
+        <activity android:name=".jobpackage.DentalActivity" />
+        <activity android:name=".jobpackage.ECActivity" />
+        <activity android:name=".jobpackage.ElectActivity" />
+        <activity android:name=".jobpackage.ItActivity" />
+        <activity android:name=".jobpackage.MbaActivity" />
+        <activity android:name=".jobpackage.MbbsActivity" />
+        <activity android:name=".jobpackage.MechActivity" />
+        <activity android:name=".jobpackage.PlasticActivity" />
+        <activity android:name=".jobpackage.TexttileActivity"></activity>
     </application>
 
 </manifest>

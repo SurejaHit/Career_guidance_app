@@ -14,5 +14,6 @@ tools:context="com.example.surejahit.career_guidance_app.Jobs_Fragment">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:numColumns="2"
+    android:clickable="true"
     />
 </RelativeLayout>

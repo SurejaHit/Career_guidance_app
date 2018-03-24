@@ -127,4 +127,83 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Firebase">Firebase User ID: 123456789abc</string>
+    <string name="archi_activity"><b>Architect:</b></string>
+    <string name="archi_data1"><ol><li>
+        Company Name:K architecture and urban design practice\n</li><li>\n
+        Qualification:B.Arch\n</li><li>\n
+        Role:Architect\n</li><li>\n
+        Experience: 2-4 years\n</li><li>\n
+        Salary: INR 15000 - 25000/ Month\n</li><li>\n
+        Location:Pune\n</li><li>\n
+        No. of vacancy:1\n</li></ol></string>
+
+
+
+    <string name="archi_data2">
+        <ol><li>Company Name:P S Landscape Design and Ecology\n</li><li>\n
+        Qualification:B.Arch\n</li><li>\n
+        Role:Architecture , Interior Design\n</li><li>\n
+        Experience:1-5 years\n</li><li>\n
+        Salary:INR 2,50,000 - 4,25,000  P.A.\n</li><li>\n
+        Location:Navi Mumbai\n</li><li>\n
+        No. of vacancy:3\n</li></ol></string>
+
+
+
+
+
+
+    <string name="auto_activity"><b>Automobile :</b></string>
+    <string name="auto_data1"><ol><li>
+        Company Name:Danniel Techno Mark\n</li><li>\n
+        Qualification:B.E/B.tech in Mechanical/Automobile\n</li><li>\n
+        Role:Maintenace Engineer\n</li><li>\n
+        Experience: fresher or expert\n</li><li>\n
+        Salary:INR 2,00,000 - 4,50,000 P.A.\n</li><li>\n
+        Location:Pune\n</li><li>\n
+        No. of vacancy:3\n</li></ol></string>
+
+    <string name="auto_data2"><ol><li>
+        Company Name:AKB infotech\n</li><li>\n
+        Qualification:B.E/B.tech in Mechanical/Automobile\n</li><li>\n
+        Role:Production Engineer\n</li><li>\n
+        Experience: 0-4 years\n</li><li>\n
+        Salary:INR 2,00,000 - 3,50,000 P.A.\n</li><li>\n
+        Location:Kolkata\n</li><li>\n
+        No. of vacancy:10\n</li></ol></string>
+
+
+    <string name="ca_activity"><b>Chartered Accountant:</b></string>
+    <string name="ca_data"><ol><li>
+        Company Name:Pricewaterhouse Coopers private Limited\n</li><li>\n
+        Qualification:Chartered Accountants\n</li><li>\n
+        Role:Finance Manager\n</li><li>\n
+        Experience:0 years\n</li><li>\n
+        Salary: INR 7,00,000 - 8,00,000  P.A.\n</li><li>\n
+        Location:Hyderabad\n</li><li>\n
+        No. of vacancy:1\n</li></ol></string>
+
+
+    <string name="civil_activity"><b>Civil engineering:</b></string>
+    <string name="civil_data1"><ol><li>
+        Company Name:L and T Technology Services\n</li><li>\n
+        Qualification:B.Tech/B.E. ,Diploma - Civil\n</li><li>\n
+        Role:Civil Engineer-Water/Wastewater \n</li><li>\n
+        Experience:6-10 yrs\n</li><li>\n
+        Salary: INR 4,00,000 - 7,50,000  P.A.\n</li><li>\n
+        Location:Bhopal, Nasik\n</li><li>\n
+        No. of vacancy: 1\n</li></ol></string>
+
+    <string name="civil_data2"><ol><li>
+        Company Name:Himalaya Infraprojects
+        Qualification:Diploma in Civil engg.\n</li><li>\n
+        Role:Project Manager \n</li><li>\n
+        Experience:5-6 years\n</li><li>\n
+        Salary: INR 4,00,000 - 7,50,000 P.A.\n</li><li>\n
+        Location:Gurgaon\n</li><li>\n
+        No. of vacancy:3\n</li></ol></string>
+
+
+
+
 </resources>

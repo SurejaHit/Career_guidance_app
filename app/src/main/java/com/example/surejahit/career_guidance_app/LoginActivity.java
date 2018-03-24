@@ -23,6 +23,7 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.concurrent.TimeUnit;
 
@@ -123,6 +124,8 @@ public class LoginActivity extends AppCompatActivity implements
                 signInWithPhoneAuthCredential(credential);
             }
 
+
+
             @Override
             public void onVerificationFailed(FirebaseException e) {
                 // This callback is invoked in an invalid request for verification is made,
@@ -185,8 +188,7 @@ public class LoginActivity extends AppCompatActivity implements
             startPhoneNumberVerification(mPhoneNumberField.getText().toString());
         }
         // [END_EXCLUDE]
-        Intent iMain = new Intent(LoginActivity.this,MainActivity.class);
-        startActivity(iMain);
+
     }
     // [END on_start_check_user]
 

@@ -9,6 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 
 public class Jobs_Fragment extends Fragment{
@@ -114,8 +118,17 @@ public class Jobs_Fragment extends Fragment{
         s.setImage(R.drawable.architect);
         spacecrafts.add(s);
 
+        List<Spacecraft> arrString = spacecrafts;
 
-        return spacecrafts;
+        Collections.sort(arrString, new Comparator<Spacecraft>(){
+            public int compare(Spacecraft ob1, Spacecraft obj2)
+            {
+                // TODO Auto-generated method stub
+                return ob1.name.compareToIgnoreCase(obj2.name);
+            }
+        });
+
+        return (ArrayList) arrString;
     }
 
 }

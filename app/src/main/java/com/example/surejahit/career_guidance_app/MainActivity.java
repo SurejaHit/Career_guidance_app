@@ -108,6 +108,10 @@ public class MainActivity extends AppCompatActivity
             sharingIntent.setType("text/plain");
         } else if (id == R.id.nav_send) {
 
+        } else if(id ==R.id.nav_signOut){
+            Intent signout  =new Intent(this,LoginActivity.class);
+            signout.putExtra("signOutnav",true);
+            startActivity(signout);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

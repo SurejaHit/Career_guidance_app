@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/fragment1"
+
     android:layout_gravity="center"
 tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
 
@@ -28,7 +29,7 @@ tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
         android:text="After 12th" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnG"
         android:textColor="#ffffff"
         android:background="@drawable/button_selector"
         android:layout_gravity="center_vertical|center_horizontal"
@@ -38,7 +39,7 @@ tools:context="com.example.surejahit.career_guidance_app.Guidance_Fragment">
         android:text="After Graduation" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnPg"
         android:textColor="#ffffff"
         android:background="@drawable/button_selector"
         android:layout_gravity="center_vertical|center_horizontal"
