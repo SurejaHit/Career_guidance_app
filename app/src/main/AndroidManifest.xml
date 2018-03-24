@@ -25,7 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity
             android:name=".Language_Activity"
             android:configChanges="orientation"
@@ -63,7 +62,6 @@
         <activity android:name=".jobpackage.MechActivity" />
         <activity android:name=".jobpackage.PlasticActivity" />
         <activity android:name=".jobpackage.TexttileActivity"></activity>
-=======
         <activity android:name=".CareerAfter10th">
         <intent-filter>
             <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
@@ -100,8 +98,6 @@
             </intent-filter>
         </activity>
 
-
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
     </application>
 
 </manifest>

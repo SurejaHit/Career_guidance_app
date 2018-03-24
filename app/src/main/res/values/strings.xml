@@ -14,14 +14,15 @@
         <item>Urdu</item>
     </string-array>
 
-
     <string name="sc1">When a student studies subjects like Physics and Chemistry in Science, it augments their understanding of the world, effects, causes, etc. It lets them develop scientific knowledge and theory about everything in their surroundings they may stumble across.</string>
     <string name="sc2">Science causes progressive and extraordinary developments. It has aided people in finding the cure to numerous diseases, increase awareness, and has created endless possibilities for us.</string>
 
-
-
+    <string name="sc3">Scope after Science :</string>
+    <string name="sc4">Engineering, Medical, B.sc Other</string>
+    <string name="sc5">Top colleges in india and Abroad :</string>
+    <string name="sc6">India : IIT-Bombay, IIT-Delhi, NITS, IISc, BITS-Pilani etc.</string>
+    <string name="sc7">Abroad : Oxford university,Imperial college of engineering,Harvard University,Cambridge University etc.</string>
     <string name="top1"><b>Machine Learning : </b></string>
-    >
     <string name="des1">
     <ol>
         <li> Reason : Machine learning is one of the most popular future trend.To Reducing human error,Banking sectors to manipulate large amount of data accurately,Autonomous Vehicles are increase day to day\n</li>
@@ -133,7 +134,6 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Firebase">Firebase User ID: 123456789abc</string>
-<<<<<<< HEAD
     <string name="archi_activity"><b>Architect:</b></string>
     <string name="archi_data1"><ol><li>
         Company Name:K architecture and urban design practice\n</li><li>\n
@@ -212,12 +212,9 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
 
 
 
-
-=======
     <string name="title_activity_career_after_graduation">activity_career_afterGraduation</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_career_after__pg">activity_career_after_PG</string>
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
 </resources>
