@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity
             android:name=".Language_Activity"
             android:configChanges="orientation"
@@ -34,21 +34,6 @@
             android:name=".LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
-        <!--
-=======
-        <activity android:name=".Language_Activity" />
-        <activity android:name=".LoginActivity" />
-
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
-        <activity android:name=".CareerAfter12th">
-            <intent-filter>
-                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-<<<<<<< HEAD
-        -->
 
         <activity android:name=".jobpackage.ArchiActivity"/>
         <activity android:name=".jobpackage.AutoActivity" />
@@ -63,14 +48,20 @@
         <activity android:name=".jobpackage.MechActivity" />
         <activity android:name=".jobpackage.PlasticActivity" />
         <activity android:name=".jobpackage.TexttileActivity"></activity>
-=======
+        <activity android:name=".CareerAfter12th">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".CareerAfter10th">
         <intent-filter>
             <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
-    </activity>
+         </activity>
         <activity android:name=".in10_science">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.in10_science" />
@@ -101,7 +92,7 @@
         </activity>
 
 
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
+
     </application>
 
 </manifest>

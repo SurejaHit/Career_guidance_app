@@ -131,9 +131,9 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
     <string name="signed_out">Signed Out</string>
     <string name="firebase_status_fmt">Firebase User: %s</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">What you do after 12th?</string>
     <string name="Firebase">Firebase User ID: 123456789abc</string>
-<<<<<<< HEAD
+
     <string name="archi_activity"><b>Architect:</b></string>
     <string name="archi_data1"><ol><li>
         Company Name:K architecture and urban design practice\n</li><li>\n
@@ -213,11 +213,11 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
 
 
 
-=======
+
     <string name="title_activity_career_after_graduation">activity_career_afterGraduation</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_career_after__pg">activity_career_after_PG</string>
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
+
 </resources>

@@ -1,10 +1,8 @@
 package com.example.surejahit.career_guidance_app;
 
 import android.app.FragmentManager;
-<<<<<<< HEAD
+
 import android.app.FragmentTransaction;
-=======
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -18,26 +16,8 @@ import android.widget.TextView;
 public  class Guidance_Fragment extends Fragment {
 
     TextView tv;
-    Button btn10,btn12,btnG,btnPG;
-<<<<<<< HEAD
-    public  Guidance_Fragment(){
+    Button btn10,btn12,btnG,btnPg;
 
-    }
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_guidance, container, false);
-        Button btn10 = (Button)v.findViewById(R.id.btn10);
-        btn10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment fragment = null;
-
-            }
-        });
-        return v;
-
-    }
-=======
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_guidance, container, false);
@@ -65,7 +45,7 @@ public  class Guidance_Fragment extends Fragment {
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter12th");
+                Intent intent = new Intent("com.example.surejahit.career_guidence_app.CareerAfter12th");
                 startActivity(intent);
             }
         });
@@ -83,8 +63,8 @@ public  class Guidance_Fragment extends Fragment {
     }
     public void onClickPG(View view)
     {
-        btnPG=(Button) view.findViewById(R.id.btnPG);
-        btnPG.setOnClickListener(new View.OnClickListener() {
+        btnPg=(Button) view.findViewById(R.id.btnPg);
+        btnPg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter_pg");
@@ -93,16 +73,12 @@ public  class Guidance_Fragment extends Fragment {
         });
     }
 
-    @Override
-    public void onClick(View view) {
 
-    }
   /*  public void onClick(View view) {
         FragmentManager fm = getActivity().getFragmentManager();
         MyDialogFragment dialogFragment = new MyDialogFragment ();
         dialogFragment.show(fm, "Sample Fragment");
     }*/
->>>>>>> 57f3be5213b4571ffe9ed45e408d040139374384
 
 
 }
