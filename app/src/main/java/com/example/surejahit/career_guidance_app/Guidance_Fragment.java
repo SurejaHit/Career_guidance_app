@@ -1,6 +1,10 @@
 package com.example.surejahit.career_guidance_app;
 
 import android.app.FragmentManager;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,10 +19,15 @@ import android.widget.TextView;
 public  class Guidance_Fragment extends Fragment {
 
     TextView tv;
+<<<<<<< HEAD
+    Button btn10,btn12,btnG,btnPg;
+
+=======
     Button btn10,btn12,btnG,btnPG;
     public  Guidance_Fragment(){
 
     }
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_guidance, container, false);
@@ -46,7 +55,7 @@ public  class Guidance_Fragment extends Fragment {
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter12th");
+                Intent intent = new Intent("com.example.surejahit.career_guidence_app.CareerAfter12th");
                 startActivity(intent);
             }
         });
@@ -64,8 +73,13 @@ public  class Guidance_Fragment extends Fragment {
     }
     public void onClickPG(View view)
     {
+<<<<<<< HEAD
+        btnPg=(Button) view.findViewById(R.id.btnPg);
+        btnPg.setOnClickListener(new View.OnClickListener() {
+=======
         btnPG=(Button) view.findViewById(R.id.btnPg);
         btnPG.setOnClickListener(new View.OnClickListener() {
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter_pg");
@@ -74,10 +88,18 @@ public  class Guidance_Fragment extends Fragment {
         });
     }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
   /*  public void onClick(View view) {
         FragmentManager fm = getActivity().getFragmentManager();
         MyDialogFragment dialogFragment = new MyDialogFragment ();
         dialogFragment.show(fm, "Sample Fragment");
     }*/
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
 
 }
