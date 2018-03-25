@@ -15,7 +15,7 @@
         <item
             android:id="@+id/aboutus"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="About Us" />
+            android:title="My Interest" />
 
             <item
                 android:id="@+id/nav_share"

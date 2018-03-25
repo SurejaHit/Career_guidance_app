@@ -16,7 +16,6 @@
 
     <string name="sc1">When a student studies subjects like Physics and Chemistry in Science, it augments their understanding of the world, effects, causes, etc. It lets them develop scientific knowledge and theory about everything in their surroundings they may stumble across.</string>
     <string name="sc2">Science causes progressive and extraordinary developments. It has aided people in finding the cure to numerous diseases, increase awareness, and has created endless possibilities for us.</string>
-
     <string name="sc3">Scope after Science :</string>
     <string name="sc4">Engineering, Medical, B.sc Other</string>
     <string name="sc5">Top colleges in india and Abroad :</string>
@@ -63,7 +62,7 @@ Trend : This days\n</li><li>\n
 Expected salary : Around 5-8 lakhs/year\n</li><li>\n
 Requirements:M.Tech.(Computer Eng.) , M.C.A. , M.Sc.(Computer Sci.)\n</li></ol></string>
 
-    <string name="top6"><b>Nano Technology:</b></string>
+    <string name="top6"><b>Nano Technology :</b></string>
     <string name="des6">
 <ol><li>
 Reason : To deal with nucleus and other small particles of nanoscale. \n</li><li>\n
@@ -101,6 +100,53 @@ Reason: To guide the person for better health.
 Trend: All time
 Expected salary: around 4-8 lakhs/year
 Requirement: M.B.B.S.\n</li></ol></string>
+
+    <string name="yoga_data">What is Yoga?</string>
+    <string name="yoga_data0">
+    <ol>
+        <li>Yoga is a group of physical, mental, and spiritual practices or disciplines which
+            originated in ancient India. There is a broad variety of yoga schools, practices, and
+            goals in Hinduism, Buddhism, and Jainism.\n
+        </li>
+    </ol>
+    </string>
+
+    <string name="yoga_data1"><ol><li>
+<b>Why to choose Yoga as a career?\n</b></li>
+<li>
+You can perform and demonstrate all yoga exercises to participants and ensure compliance to safety and health standard. Assist participants to perform all exercises effectively. Evaluate exercises perform by participants and recommend correction whenever required.And you get good amount for this.\n</li></ol></string>
+    <string name="yoga_data2"><ol>
+<b>Scope:</b>
+<li>
+Research Officer- Yoga and Naturopathy\n</li>
+<li>-Yoga Aerobic Instructor\n</li>
+<li>-Assistant Ayurvedic Doctor\n</li>
+<li>-Clinical Psychologist\n</li></ol></string>
+
+    <string name="yoga_data3"><ol>
+<li>
+Institutes/ Colleges offering Yoga Sciences\n</li>
+<li>-Government Naturopathic Medical College, Hyderabad\n</li>
+<li>-SDM College of Naturopathy and Yogic Sciences, Ujire, Karanataka\n</li>
+<li>-JSS Institute of Naturopathy and Yogic Sciences, Mysore Road, Ootacamund\n</li>
+<li>-Shivaraj Naturapathy and Yoga Medical College, Salem\n</li>
+<li>-Government Naturopathy and Yoga Medical College and Hospital, Anna Nagar, Chennai</li></ol>
+</string>
+    <string name="stp1">Who is An entrepreneur?\n=>An entrepreneur is an initiator, a challenger and a driver. Someone that creates something new, either an initiative, a business or a company.</string>
+    <string name="stp2">Why we choose Startup as a career?</string>
+    <string name="stp3">-->Lots of opportunities\n-->You can give jobs to others\n-->You can solve world's problem by your startup</string>
+    <string name="stp4">Scope :</string>
+    <string name="stp5">1.Green and renewable energy\n2.Artificial intelligence\n3.Video gaming\n4.Software as a service</string>
+
+    <string name="stp6">Successful Startups :</string>
+    <string name="stp7">\nOLA auto: Ola Cabs was founded on 3 December 2010 by Bhavish Aggarwal, currently CEO, and Ankit Bhati. As of 2017, the company has expanded to a network of more than 600,000 vehicles across 110 cities.</string>
+    <string name="stp8">Revenue : ₹942.8 crore (US$140 million) in 2014-15</string>
+
+    <string name="stp9">\nPaytm :Paytm is an Indian e-payments and e-commerce brand based out of Delhi NCR, India founded by Vijay Shekhar Sharma, Launched in August 2010. it is a consumer brand of parent company One97 Communications. The name is an acronym for "Payment Through Mobile".</string>
+
+    <string name="stp10">\nOYO hotels: In 2012, at 18, Ritesh Agarwal launched Oravel Stays, a website designed to enable listing and booking of budget accommodation. After three months of research and staying in over 100 bed and breakfasts, guest houses, and small hotels, he pivoted Oravel to OYO in 2013. OYO partners with hotels to give similar experiences across cities.</string>
+    <string name="stp11">"They make Revenue : ₹2,500 crore but still OYO have no any hotels of it's own."</string>
+
 
     <string name="top11"><b>Management :</b></string>
     <string name="des11"><ol><li>
@@ -204,7 +250,6 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
         Salary: INR 4,00,000 - 7,50,000 P.A.\n</li><li>\n
         Location:Gurgaon\n</li><li>\n
         No. of vacancy:3\n</li></ol></string>
-
 
     <string name="title_activity_career_after_graduation">activity_career_afterGraduation</string>
     <string name="dummy_button">Dummy Button</string>

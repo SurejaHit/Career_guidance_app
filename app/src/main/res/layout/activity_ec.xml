@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+
+    tools:context="com.example.surejahit.career_guidance_app.jobpackage.ECActivity">
 
     <TextView
         android:id="@+id/fullscreen_content"
@@ -11,7 +13,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="After 12th"
+        android:text="EC"
         android:textColor="#475860"
         android:textSize="50sp"
         android:textStyle="bold" />

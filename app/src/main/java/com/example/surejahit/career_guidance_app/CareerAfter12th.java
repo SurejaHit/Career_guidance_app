@@ -15,6 +15,7 @@ public class CareerAfter12th extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_career_after10th);
         setContentView(R.layout.activity_career_after12th);
     }
     public void onClickImage(View view) {

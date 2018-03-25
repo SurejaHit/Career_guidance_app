@@ -15,7 +15,8 @@ import android.widget.TextView;
 public  class Guidance_Fragment extends Fragment {
 
     TextView tv;
-    Button btn10,btn12,btnG,btnPG;
+
+    Button btn10,btn12,btnG,btnPg;
     public  Guidance_Fragment(){
 
     }
@@ -65,10 +66,8 @@ public  class Guidance_Fragment extends Fragment {
     }
     public void onClickPG(View view)
     {
-
-
-        btnPG=(Button) view.findViewById(R.id.btnPg);
-        btnPG.setOnClickListener(new View.OnClickListener() {
+        btnPg=(Button) view.findViewById(R.id.btnPg);
+        btnPg.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -83,5 +82,4 @@ public  class Guidance_Fragment extends Fragment {
         MyDialogFragment dialogFragment = new MyDialogFragment ();
         dialogFragment.show(fm, "Sample Fragment");
     }*/
-
 }
