@@ -225,8 +225,6 @@ University of Delhi.Banaras Hindu University.\n\n
 <b>Abroad </b>: \nRoyal college of Arts,London.\nParsons school of design,New york.\n
 University of sydney
 
-
-
 </string>
     <string name="dipdef">We can join Diploma courses after 10th.There are many reasons to do this course.Like Diplomas can be completed in significantly less time,Fees for diploma courses are comparative less than degree courses,It makes you more industry ready in your course.</string>
     <string name="dipclg">\nTop colleges in India/Abroad \n<b>India</b>:\nGovernment Polytechnic , Mumbai.
@@ -234,5 +232,39 @@ University of sydney
         \nNational University of Singapore
         \nCornell University etc.</string>
     <string name="dipdata"><b>Fields</b> \nComputer \nMechanical \nElectrical \nGraphics design </string>
+    <string name="Computer_Eng"><ol>
+        <li><b>Why To Choose Computer  Engineering as Career?\n</b></li></ol></string>
+        <string name="Comp_def"><ol><li>The digital age needs computer scientists.Computer science students have excellent graduate prospects.Computer scientists earn big bucks.Computer scientists are needed in every type of industry.\n</li></ol></string>
+        <string name="Computer_Eng_fields"><ol>
+            <li><b>Fields\n</b></li>
+            <li>Algorithms and Data Structures\n</li>
+            <li>Database systems\n</li>
+            <li>Data Communication\n</li>
+            <li>Artificial Intelligence\n</li>
+            <li>AComputer Vision\n</li>
+            <li>Machine Learning\n</li>
+            <li>Soft Computing\n</li>
+            <li>Bio Informatics\n</li>
+            <li>Distributed computing\n</li>
+            <li>Parallel Computing\n</li>
+            <li>Cryptography\n</li>
+            <li>Computer Graphics\n</li>
+            <li>Robotics\n</li>
+            <li>Web Technologies\n</li>
+        </ol></string>
+
+        <string name="Computer_Eng_colleges"><ol>
+            <li><b>Top Colleges For Computer Eng:\n</b></li>
+            <li>IISC,Banglore\n</li>
+            <li>IIIT,Hyderabad\n</li>
+            <li>IIT,Bombay\n</li>
+            <li>IIT,Madras\n</li>
+            <li>IIT,Delhi\n</li>
+            <li>IIT,Kanpur\n</li>
+            <li>BITS,Pilani\n</li>
+            <li>IIT,Guwahati\n</li>
+            <li>NIT,Trichy\n</li>
+        </ol></string>
+
 
 </resources>

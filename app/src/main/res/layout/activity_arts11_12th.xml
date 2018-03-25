@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.surejahit.career_guidance_app.arts11_12th">
     <RelativeLayout
-        android:background="#2196F3"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -28,7 +27,6 @@
             android:text="@string/artdef"
             android:id="@+id/artdef"
             android:layout_below="@+id/webVideoViewart"
-            android:background="#fff"
             android:textColor="#2196F3"
             />
 
