@@ -55,8 +55,8 @@ android:background="#FFFFFF">
     <ImageView
         android:layout_width="400dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/yoga1"
-        android:src="@drawable/startup1" />
+        android:scaleType="fitXY"
+        android:src="@drawable/yoga1" />
 
     <TextView
         android:layout_width="match_parent"
