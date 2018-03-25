@@ -98,6 +98,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".drop_down">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.drop_down" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".drop_after10th">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.drop_after10th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".CareerAfter_pg">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.CareerAfter_pg" />

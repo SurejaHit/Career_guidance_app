@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.aboutapp) {
 
         } else if (id == R.id.aboutus) {
-            Intent i = new Intent(MainActivity.this,InterestActivity.class);
+            Intent i = new Intent(MainActivity.this,drop_down.class);
             startActivity(i);
 
         } else if (id == R.id.nav_share) {

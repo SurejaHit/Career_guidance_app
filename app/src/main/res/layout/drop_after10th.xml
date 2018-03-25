@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2196f3"
+    android:orientation="vertical"
+    tools:context="com.example.surejahit.career_guidance_app.drop_after10th">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faq"
+        android:text="Frequently Asked Questions!"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1"
+        android:layout_marginTop="20dp"
+        android:text="1) Are you interested in which subjects?"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:id="@+id/ans1"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"/>
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:id="@+id/ans2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"/>
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Science"
+        android:id="@+id/ans3"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"/>
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:id="@+id/ans4"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textColor="#fff"
+        android:background="#df00ff"/>
+</LinearLayout>
+
