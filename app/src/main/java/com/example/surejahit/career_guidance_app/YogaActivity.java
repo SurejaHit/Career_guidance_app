@@ -25,16 +25,17 @@ public class YogaActivity extends Activity {
 
         webview.loadData(html, "text/html", "utf-8");
 
+
         WebView webview1 = (WebView) findViewById(R.id.webVideoView2);
 
         webview1.setVisibility(View.VISIBLE);
-        String html1 = " <iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/KD1g42vpYNU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n";
+        String html1 = " <iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/KD1g42vpYNU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n";
 
 
         webview1.getSettings().setJavaScriptEnabled(true);
         webview1.setWebChromeClient(new WebChromeClient() {
         });
 
-        webview1.loadData(html1, "text/html1", "utf-8");
+        webview1.loadData(html1, "text/html", "utf-8");
     }
 }
