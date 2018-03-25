@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context="com.example.surejahit.career_guidance_app.InterestActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backg"
+        android:scaleType="fitXY"
+        android:alpha="0.3"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:text="Choose Your Interest"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:textSize="36dp"
+    android:textColor="#FFFFFF"
+    android:background="#2196F3"/>
+<Button
+    android:id="@+id/computer"
+    android:padding="1dp"
+    android:layout_marginTop="12dp"
+    android:layout_width="180dp"
+    android:layout_height="36dp"
+    android:text="COMPUTER"
+    android:textColor="#ffff"
+    android:textSize="20dp"
+    android:background="@drawable/button_selector"
+    android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/startup"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="Startup"
+        android:onClick="startup"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/civil"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="Civil"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/mba"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="MBA"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/mechanical"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="Mechanical"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/yoga"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="Yoga"
+        android:onClick="yoga"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/ec"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="EC"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/art"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="Art"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/doctor"
+        android:padding="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="DOctor"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+</RelativeLayout>
+

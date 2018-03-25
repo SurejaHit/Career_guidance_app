@@ -25,10 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
         <activity
             android:name=".Language_Activity"
             android:configChanges="orientation"
@@ -37,8 +33,7 @@
             android:name=".LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
-
-        <activity android:name=".jobpackage.ArchiActivity"/>
+        <activity android:name=".jobpackage.ArchiActivity" />
         <activity android:name=".jobpackage.AutoActivity" />
         <activity android:name=".jobpackage.CAActivity" />
         <activity android:name=".jobpackage.CivilActivity" />
@@ -50,8 +45,7 @@
         <activity android:name=".jobpackage.MbbsActivity" />
         <activity android:name=".jobpackage.MechActivity" />
         <activity android:name=".jobpackage.PlasticActivity" />
-        <activity android:name=".jobpackage.TexttileActivity"></activity>
-<<<<<<< HEAD
+        <activity android:name=".jobpackage.TexttileActivity" />
         <activity android:name=".CareerAfter12th">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
@@ -59,15 +53,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
         <activity android:name=".CareerAfter10th">
-        <intent-filter>
-            <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-         </activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".in10_science">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.in10_science" />
@@ -96,12 +88,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
+        <activity android:name=".InterestActivity" />
+        <activity android:name=".StartupActivity" />
+        <activity android:name=".YogaActivity"></activity>
     </application>
 
 </manifest>

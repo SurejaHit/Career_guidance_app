@@ -9,10 +9,7 @@ public class CareerAfter12th extends Activity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
         setContentView(R.layout.activity_careerafter12th);
-=======
         setContentView(R.layout.activity_career_after10th);
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
     }
 }

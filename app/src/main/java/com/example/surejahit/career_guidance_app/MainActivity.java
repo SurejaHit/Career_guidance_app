@@ -102,10 +102,21 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.aboutapp) {
 
         } else if (id == R.id.aboutus) {
+            Intent i = new Intent(MainActivity.this,InterestActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_share) {
-            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
+            try {
+                Intent i = new Intent(Intent.ACTION_SEND);
+                i.setType("text/plain");
+                i.putExtra(Intent.EXTRA_SUBJECT, "Career Dendogram");
+                String sAux = "\nHello my friend, try this app. It's just awesome and helped me a lot to choose my career.\n\n";
+                sAux = sAux + "https://github.com/SurejaHit/Career_guidance_app\n\n";
+                i.putExtra(Intent.EXTRA_TEXT, sAux);
+                startActivity(Intent.createChooser(i, "choose one"));
+            } catch(Exception e) {
+                //e.toString();
+            }
         } else if (id == R.id.nav_send) {
 
         } else if(id ==R.id.nav_signOut){
