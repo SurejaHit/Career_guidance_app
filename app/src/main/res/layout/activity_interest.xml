@@ -71,6 +71,7 @@ android:layout_height="match_parent"
         android:text="MBA"
         android:textColor="#ffff"
         android:textSize="20dp"
+        android:onClick="mba"
         android:background="@drawable/button_selector"
         android:layout_gravity="center_horizontal"/>
     <Button

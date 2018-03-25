@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.surejahit.career_guidance_app.Engpackage.ComputerEng;
+import com.example.surejahit.career_guidance_app.jobpackage.MbaActivity;
 
 public class InterestActivity extends Activity {
 
@@ -26,6 +27,10 @@ public class InterestActivity extends Activity {
 
     public void yoga(View view) {
         Intent i = new Intent(InterestActivity.this,YogaActivity.class);
+        startActivity(i);
+    }
+    public void mba(View view) {
+        Intent i = new Intent(InterestActivity.this,MbaActivity.class);
         startActivity(i);
     }
 

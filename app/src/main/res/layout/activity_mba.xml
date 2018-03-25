@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.surejahit.career_guidance_app.jobpackage.MbaActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.surejahit.career_guidance_app.science11_12th"
+    android:background="#FFFFFF">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why to Choose MBA??"
+            android:textSize="32dp"
+            android:id="@+id/text1mba"
+            android:background="#2196F3"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="	MBA is all about management.If you want to pursue career in managerial roles you should go for it but MBA is not only about Managerial roles it has many thing in itself.People go for MBA so they can enhance their skills,get a high paying jobs, sharpen their managerial abilities, increase knowledge.	"
+            android:id="@+id/text2mba"
+            android:layout_below="@+id/webVideoView1mba"
+            android:textColor="#2196F3"
+            />
+
+        <WebView
+            android:id="@+id/webVideoView1mba"
+            android:layout_below="@+id/text1mba"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none">
+        </WebView>
+        <WebView
+            android:id="@+id/webVideoView2mba"
+            android:layout_below="@+id/webVideoView1mba"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none">
+        </WebView>
+        <WebView
+            android:id="@+id/webVideoView3mba"
+            android:layout_below="@+id/webVideoView2mba"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none">
+        </WebView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text3mba"
+            android:text="	Various fields like sales,\n human resources,\n finance, \neconomy and \nmanagement and only one degree i.e. MBA.\nIn today’s ever growing era of industrialization the need for such professionals who not only have the experience but can also multi-task is increasing rapidly.Financial crisis is being counted amongst the biggest crisis on a global scale.Graduates of MBA with specialization in Business Management are the ones who can start their business and give jobs to many.MBA freshers have career in accounting and financial planning.MBA students are directly preferred for senior posts of managers board members.MBA graduates can find job in both public and private sectors."
+            android:textColor="#2196F3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/webVideoView3mba"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fields:\n
+                        \nHuman Resource Management
+                        \nFinance Management
+                        \nEnergy Management
+                        \nTelecom Management
+                        \nRetail Management
+                        \nTourism Management
+                        \nIT Management
+                        \nBusiness Analytics"
+            android:id="@+id/text4mba"
+            android:layout_below="@+id/text3mba"
+            android:textColor="#2196F3"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
