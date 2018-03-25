@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.surejahit.career_guidance_app.arts11_12th">
+    tools:context="com.example.surejahit.career_guidance_app.science11_12th"
+    android:background="#FFFFFF">
     <RelativeLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -12,9 +13,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Why to Choose Diploma??"
+            android:text="Why to Choose Commerce??"
             android:textSize="32dp"
-            android:id="@+id/diphead"
+            android:id="@+id/commtext"
             android:background="#2196F3"
             android:textColor="#fff"
             android:gravity="center_horizontal"
@@ -24,15 +25,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dipdef"
-            android:id="@+id/dipdef"
-            android:layout_below="@+id/webVideoViewdip"
+            android:text="@string/comm1"
+            android:id="@+id/comm1"
+            android:layout_below="@+id/webVideoViewcomm"
             android:textColor="#2196F3"
             />
 
         <WebView
-            android:id="@+id/webVideoViewdip"
-            android:layout_below="@+id/arthead"
+            android:id="@+id/webVideoViewcomm"
+            android:layout_below="@+id/commtext"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginBottom="5dp"
@@ -40,28 +41,21 @@
         </WebView>
 
         <WebView
-            android:id="@+id/webVideoViewdip2"
-            android:layout_below="@+id/dipdef"
+            android:id="@+id/webVideoViewcomm2"
+            android:layout_below="@+id/comm1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginBottom="5dp"
             android:scrollbars="none">
         </WebView>
         <TextView
-            android:id="@+id/textdipfield"
-            android:layout_below="@id/webVideoViewdip2"
+            android:id="@+id/textstudy"
+            android:layout_below="@id/webVideoViewcomm2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dipdata"
+            android:text="@string/commdata"
             android:textColor="#2196F3"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/textdipfield"
-            android:textColor="#2196F3"
-            android:text="@string/dipclg"/>
 
     </RelativeLayout>
 
-
-</android.support.v4.widget.NestedScrollView>
+</ScrollView>

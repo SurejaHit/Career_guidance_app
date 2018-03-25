@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.surejahit.career_guidance_app.in10_science"
+    tools:context="com.example.surejahit.career_guidance_app.science11_12th"
     android:background="#FFFFFF">
 
     <RelativeLayout
@@ -16,7 +16,8 @@
         android:text="Why to Choose Science??"
         android:textSize="32dp"
         android:id="@+id/sc1"
-        android:textColor="#2196F3"
+        android:background="#2196F3"
+        android:textColor="#fff"
         android:gravity="center_horizontal"
         android:textStyle="bold|italic"
         />
@@ -78,7 +79,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/sc6"
             android:textSize="24dp"
-            android:textColor="#126699"
+            android:textColor="#21963F"
             android:layout_marginTop="10dp"
             android:text="@string/sc5"
             android:layout_below="@+id/sc5"/>
@@ -91,6 +92,15 @@
             android:textSize="16dp"
             android:text="@string/sc6"
             android:layout_below="@+id/sc6"/>
+        <TextView
+            android:id="@+id/cs8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#126699"
+            android:textSize="16dp"
+            android:layout_below="@id/sc7"
+            android:text="@string/sc7"
+            tools:ignore="UnknownId" />
 
     </RelativeLayout>
 

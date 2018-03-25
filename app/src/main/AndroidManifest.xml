@@ -46,13 +46,7 @@
         <activity android:name=".jobpackage.MechActivity" />
         <activity android:name=".jobpackage.PlasticActivity" />
         <activity android:name=".jobpackage.TexttileActivity" />
-        <activity android:name=".CareerAfter12th">
-            <intent-filter>
-                <action android:name="com.example.surejahit.career_guidance_app.CareerAfter12th" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".CareerAfter12th" />
         <activity android:name=".CareerAfter10th">
             <intent-filter>
                 <action android:name="com.example.surejahit.career_guidance_app.CareerAfter10th" />
@@ -60,9 +54,32 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".in10_science">
+
+        <activity android:name=".science11_12th">
             <intent-filter>
-                <action android:name="com.example.surejahit.career_guidance_app.in10_science" />
+                <action android:name="com.example.surejahit.career_guidance_app.science11_12th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".commerce11_12th">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.commerce11_12th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".arts11_12th">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.arts11_12th" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Diploma">
+            <intent-filter>
+                <action android:name="com.example.surejahit.career_guidance_app.Diploma" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -91,6 +108,10 @@
         <activity android:name=".InterestActivity" />
         <activity android:name=".StartupActivity" />
         <activity android:name=".YogaActivity"></activity>
+        <activity android:name=".Engpackage.ComputerEng" />
+        <activity android:name=".Engpackage.MechanicalEng" />
+        <activity android:name=".Engpackage.CivilEng" />
+        <activity android:name=".Engpackage.EcEng" />
     </application>
 
 </manifest>

@@ -6,15 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.surejahit.career_guidance_app.arts11_12th">
     <RelativeLayout
+        android:background="#2196F3"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Why to Choose Diploma??"
+            android:text="Why to Choose Arts??"
             android:textSize="32dp"
-            android:id="@+id/diphead"
+            android:id="@+id/arthead"
             android:background="#2196F3"
             android:textColor="#fff"
             android:gravity="center_horizontal"
@@ -24,14 +25,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dipdef"
-            android:id="@+id/dipdef"
-            android:layout_below="@+id/webVideoViewdip"
+            android:text="@string/artdef"
+            android:id="@+id/artdef"
+            android:layout_below="@+id/webVideoViewart"
+            android:background="#fff"
             android:textColor="#2196F3"
             />
 
         <WebView
-            android:id="@+id/webVideoViewdip"
+            android:id="@+id/webVideoViewart"
             android:layout_below="@+id/arthead"
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -40,26 +42,26 @@
         </WebView>
 
         <WebView
-            android:id="@+id/webVideoViewdip2"
-            android:layout_below="@+id/dipdef"
+            android:id="@+id/webVideoViewart2"
+            android:layout_below="@+id/artdef"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginBottom="5dp"
             android:scrollbars="none">
         </WebView>
         <TextView
-            android:id="@+id/textdipfield"
-            android:layout_below="@id/webVideoViewdip2"
+            android:id="@+id/textartfield"
+            android:layout_below="@id/webVideoViewart2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dipdata"
+            android:text="@string/artdata"
             android:textColor="#2196F3"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textdipfield"
+            android:layout_below="@id/textartfield"
             android:textColor="#2196F3"
-            android:text="@string/dipclg"/>
+            android:text="@string/artclg"/>
 
     </RelativeLayout>
 

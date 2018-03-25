@@ -20,6 +20,7 @@ public  class Guidance_Fragment extends Fragment {
     public  Guidance_Fragment(){
 
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_guidance, container, false);
@@ -47,7 +48,7 @@ public  class Guidance_Fragment extends Fragment {
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("com.example.surejahit.career_guidence_app.CareerAfter12th");
+                Intent intent = new Intent(getActivity(),CareerAfter12th.class);
                 startActivity(intent);
             }
         });
@@ -67,6 +68,7 @@ public  class Guidance_Fragment extends Fragment {
     {
         btnPg=(Button) view.findViewById(R.id.btnPg);
         btnPg.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.example.surejahit.career_guidance_app.CareerAfter_pg");
