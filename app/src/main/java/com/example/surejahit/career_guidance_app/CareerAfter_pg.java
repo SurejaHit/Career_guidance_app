@@ -40,12 +40,7 @@ public class CareerAfter_pg extends Activity
 
             }
         });
-
         */
-
-
-
-
     }
 }
 

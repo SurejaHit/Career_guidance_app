@@ -27,7 +27,7 @@ public class Language_Activity extends AppCompatActivity  {
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                Intent intentLog = new Intent (Language_Activity.this,LoginActivity.class);
+                Intent intentLog = new Intent (Language_Activity.this,MainActivity.class);
                 startActivity(intentLog);
             }
         });
