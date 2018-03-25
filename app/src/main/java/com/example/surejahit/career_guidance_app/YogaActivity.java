@@ -25,6 +25,7 @@ public class YogaActivity extends Activity {
 
         webview.loadData(html, "text/html", "utf-8");
 
+
         WebView webview1 = (WebView) findViewById(R.id.webVideoView2);
 
         webview1.setVisibility(View.VISIBLE);

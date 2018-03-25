@@ -9,13 +9,40 @@
     tools:context="com.example.surejahit.career_guidance_app.CareerAfter_g">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
-        android:text="After G"
+        android:text="After Graduation"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:textSize="40dp"
-        android:textColor="#6200ea"/>
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"/>
+
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Start Up"
+        android:layout_marginStart="53dp"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:background="@drawable/button_selector"
+        />
+    <Button
+        android:id="@+id/btn22"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="MBA"
+        android:layout_marginStart="53dp"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:background="@drawable/button_selector"
+        />
+
 
 
 

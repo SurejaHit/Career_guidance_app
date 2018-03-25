@@ -9,13 +9,38 @@
     tools:context="com.example.surejahit.career_guidance_app.CareerAfter_pg">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
             android:layout_height="wrap_content"
-            android:text="After PG"
+            android:text="After Post Graduation"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
-            android:textSize="40dp"
-            android:textColor="#6200ea"/>
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"/>
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Start Up"
+            android:layout_marginStart="53dp"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:background="@drawable/button_selector"
+            />
+        <Button
+            android:id="@+id/btn44"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Ph.D."
+            android:layout_marginStart="53dp"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:background="@drawable/button_selector"
+            />
 
 </LinearLayout>
 
