@@ -12,7 +12,7 @@ import android.widget.ImageView;
 public class CareerAfter10th extends Activity {
 
     ImageView imageView;
-    Button btnsc;
+    Button btnsc,btncom,btnart,btndp;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -22,7 +22,34 @@ public class CareerAfter10th extends Activity {
         btnsc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent("com.example.surejahit.career_guidance_app.in10_science");
+                Intent intent=new Intent("com.example.surejahit.career_guidance_app.science11_12th");
+                startActivity(intent);
+            }
+        });
+
+
+        btncom = (Button)findViewById(R.id.btncom);
+        btncom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent("com.example.surejahit.career_guidance_app.commerce11_12th");
+                startActivity(intent);
+            }
+        });
+
+        btnart = (Button)findViewById(R.id.btnart);
+        btnart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent("com.example.surejahit.career_guidance_app.arts11_12th");
+                startActivity(intent);
+            }
+        });
+        btndp = (Button)findViewById(R.id.btndp);
+        btndp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent("com.example.surejahit.career_guidance_app.Diploma");
                 startActivity(intent);
             }
         });

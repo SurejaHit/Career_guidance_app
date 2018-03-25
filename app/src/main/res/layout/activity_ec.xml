@@ -3,12 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
-    tools:context="com.example.surejahit.career_guidance_app.jobpackage.ECActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/fullscreen_content"
@@ -21,7 +16,3 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 </LinearLayout>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1

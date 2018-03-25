@@ -20,8 +20,8 @@
     <string name="sc3">Scope after Science :</string>
     <string name="sc4">Engineering, Medical, B.sc Other</string>
     <string name="sc5">Top colleges in india and Abroad :</string>
-    <string name="sc6">India : IIT-Bombay, IIT-Delhi, NITS, IISc, BITS-Pilani etc.</string>
-    <string name="sc7">Abroad : Oxford university,Imperial college of engineering,Harvard University,Cambridge University etc.</string>
+    <string name="sc6">\n<b>India</b> : \nIIT-Bombay \nIIT-Delhi\n NITS\n IISc\n BITS-Pilani \n</string>
+    <string name="sc7">\n<b>Abroad</b> : \nOxford university \nImperial college of engineering \nHarvard University \nCambridge University</string>
     <string name="top1"><b>Machine Learning : </b></string>
     <string name="des1">
     <ol>
@@ -134,10 +134,6 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">What you do after 12th?</string>
     <string name="Firebase">Firebase User ID: 123456789abc</string>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
     <string name="archi_activity"><b>Architect:</b></string>
     <string name="archi_data1"><ol><li>
         Company Name:K architecture and urban design practice\n</li><li>\n
@@ -149,7 +145,6 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
         No. of vacancy:1\n</li></ol></string>
 
 
-
     <string name="archi_data2">
         <ol><li>Company Name:P S Landscape Design and Ecology\n</li><li>\n
         Qualification:B.Arch\n</li><li>\n
@@ -158,10 +153,6 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
         Salary:INR 2,50,000 - 4,25,000  P.A.\n</li><li>\n
         Location:Navi Mumbai\n</li><li>\n
         No. of vacancy:3\n</li></ol></string>
-
-
-
-
 
 
     <string name="auto_activity"><b>Automobile :</b></string>
@@ -215,19 +206,33 @@ Requirements: M.Tech.(Chemical Eng.)\n</li></ol></string>
         No. of vacancy:3\n</li></ol></string>
 
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
     <string name="title_activity_career_after_graduation">activity_career_afterGraduation</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_career_after__pg">activity_career_after_PG</string>
-<<<<<<< HEAD
+    <string name="comm1">Students wishing to choose commerce stream need to get themselves more acquainted with the subjects like Economics, Accountancy, Finance, Business ,Hotel Management,Mathematics, Bookkeeping, etc and also develop an interest in them. In fact, Commerce as a career choice is fast gaining importance in India.</string>
+    <string name="commdata"><ol><li>\nTop colleges in india and Abroad: \nIIM-Ahmedabad<a href="https://www.iima.ac.in/web/iima">Visit...</a>
+        \nIIM-Ranchi<a href="https://www.iimranchi.ac.in/">Visit..</a>
+        \nIIM-Banglore<a href="http://iimb.ac.in/">Visit...</a>
+        \nIIFT</li></ol>
+        <ol><li>\n\n Abroad :\nBooth School of Business, \nStanford Graduate School of Business,\nHarvard Business School</li></ol></string>
+    <string name="artdef">It is a very traditional stream.This stream is made up of parts like humanities, visual arts, performing arts, literary arts etc. A career in art is not limited to being a painter of canvases which get framed and sold in a gallery. Behind every piece of art in a newspaper, magazine, book, poster, and leaflet there’s a graphic or commercial artist or illustrator.</string>
+    <string name="artdata"><b>\nFields:</b> \nPolitical Science Sociology\n English Sanskrit History\n</string>
+    <string name="artclg">Top colleges in India/Abroad
+\n<b>India</b> :\n Sir JJ School of Arts, Mumbai. \nVisva-Bharati, Kala Shanti Bhavan.\n
+University of Delhi.Banaras Hindu University.\n\n
+<b>Abroad </b>: \nRoyal college of Arts,London.\nParsons school of design,New york.\n
+University of sydney
 
-=======
->>>>>>> 6d008f680f780128b8ca9eb6be93ca69e37f95b1
+
+
+</string>
+    <string name="dipdef">We can join Diploma courses after 10th.There are many reasons to do this course.Like Diplomas can be completed in significantly less time,Fees for diploma courses are comparative less than degree courses,It makes you more industry ready in your course.</string>
+    <string name="dipclg">\nTop colleges in India/Abroad \n<b>India</b>:\nGovernment Polytechnic , Mumbai.
+        \nV.P.M.\'s Polytechnic.Andhra Polytechnic \n <b>Abroad</b>:\nCalifornia Institute of Technology
+        \nNational University of Singapore
+        \nCornell University etc.</string>
+    <string name="dipdata"><b>Fields</b> \nComputer \nMechanical \nElectrical \nGraphics design </string>
+
 </resources>

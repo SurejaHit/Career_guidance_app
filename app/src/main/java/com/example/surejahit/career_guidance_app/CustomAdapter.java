@@ -42,6 +42,10 @@ public class CustomAdapter extends BaseAdapter {
         this.spacecrafts = spacecrafts;
     }
 
+    public CustomAdapter(Context applicationContext, int[] logos) {
+
+    }
+
     @Override
     public int getCount() {
         return spacecrafts.size();
