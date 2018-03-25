@@ -1,9 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.surejahit.career_guidance_app.Engpackage.ComputerEng">
+    tools:context="com.example.surejahit.career_guidance_app.arts11_12th">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/comphead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:gravity="center_horizontal"
+            android:text="@string/Computer_Eng"
+            android:textColor="#fff"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/compdef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/webv1"
+            android:text="@string/Comp_def"
+            android:textColor="#2196F3" />
+
+        <WebView
+            android:id="@+id/webv1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/comphead"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none"></WebView>
+
+        <WebView
+            android:id="@+id/webv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/compdef"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none"></WebView>
+        <TextView
+            android:id="@+id/compfield"
+            android:layout_below="@+id/webv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:text="@string/Computer_Eng_fields"/>
+        <TextView
+            android:id="@+id/compclg"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/compfield"
+            android:text="@string/Computer_Eng_colleges"
+            android:textColor="#2196F3"
+             />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -55,7 +55,11 @@ android:background="#FFFFFF">
     <ImageView
         android:layout_width="400dp"
         android:layout_height="200dp"
+<<<<<<< HEAD
         android:scaleType="fitXY "
+=======
+        android:scaleType="fitXY"
+>>>>>>> cdfb4b77802c827eda1d84e9e661a674e1a126ee
         android:src="@drawable/yoga1" />
 
     <TextView
