@@ -55,7 +55,7 @@ android:background="#FFFFFF">
     <ImageView
         android:layout_width="400dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/sc2"
+        android:layout_below="@+id/yoga1"
         android:src="@drawable/startup1" />
 
     <TextView
@@ -84,8 +84,7 @@ android:background="#FFFFFF">
         android:id="@+id/stp2"
         android:layout_width="400dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/sc2"
-        android:src="@drawable/startup2" />
+        android:src="@drawable/yoga2" />
 </LinearLayout>
 
 </ScrollView>
